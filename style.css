@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+.timer{
+    display: block;
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    height: 70vh;
+}
+
+.timer h1{
+    font-size: 100px;
+}
+.header{
+    height: 10vh;
+    display: flex;
+    justify-content: end;
+    margin: 3rem;
+}
+.day{
+    text-align: center;
+   font-family: "Courgette", cursive;
+}
+.noon{
+    text-align: center;
+    font-family:  "Courgette", cursive;;
+    /* display: none; */
+}
+@media screen and (max-width:600px) {
+    .timer{
+        display: block;
+        /* justify-content:space-between; */
+        align-items: center;
+        height: 60vh;
+    }
+    
+    .timer h1{
+        font-size: 50px;
+    }
+    .header{
+        height: 5vh;
+        display: flex;
+        justify-content: end;
+        margin: 2rem;
+    }
+}
+.none{
+    display: none;
+}
+#body{
+    transition: 1s ease;
+}
+
+.darkmode{
+    background:black;
+    color: #fff;
+}
+.lightmode{
+    background:#fff;
+    color: black;
+}
