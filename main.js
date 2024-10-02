@@ -5,6 +5,8 @@ var sun = document.querySelector(".fa-regular");
 var none = document.querySelector(".none");
 var daytext = document.querySelector(".day")
 var noontext = document.querySelector(".noon")
+var footer = document.querySelector(".footer")
+var footer1 = document.querySelector(".footer1")
 function readTime() {
   // /get the current date
   var date = new Date();
@@ -72,6 +74,9 @@ function auto() {
        noontext.style.display = "block"
      noontext.style.color = "white"
       daytext.style.display = "none"
+      footer.style.backgroundColor = "#fff"
+         footer.style.color = "#000"
+         footer1.style.display = "none"
 
   }
   else if (hour >= 6) {
@@ -82,6 +87,9 @@ function auto() {
      daytext.style.display = "block"
      daytext.style.color = "black"
         noontext.style.display = "none"
+        footer1.style.backgroundColor = "black"
+        footer1.style.color = "#fff"
+        footer.style.display = "none"
   }
  
  

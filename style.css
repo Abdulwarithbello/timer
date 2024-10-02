@@ -25,6 +25,26 @@
     font-family:  "Courgette", cursive;;
     /* display: none; */
 }
+.footer{
+    height: 5vh;
+    justify-content: end;
+    text-align: center;
+    display: flex;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    /* position: absolute; */
+   
+}
+.footer1{
+    height: 5vh;
+    justify-content: end;
+    text-align: center;
+    display: flex;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    position: absolute;
+   
+}
 @media screen and (max-width:600px) {
     .timer{
         display: block;
